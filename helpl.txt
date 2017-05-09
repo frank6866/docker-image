@@ -1,0 +1,8 @@
+docker build -t frank6866/performance-tool:v1.0 .
+
+docker login
+docker tag 61e8db203f02 frank6866/performance-tool:latest
+
+docker push frank6866/performance-tool:v1.0
+docker push frank6866/performance-tool:latest
+
